@@ -16,3 +16,12 @@
   --color-hero-overlay: rgba(57, 24, 111, 0.4);
   --color-course-overlay: rgba(32, 8, 19, 0.63);
 }
+
+.header {
+  background-color: var(--color-background-black);
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+body {
+  margin: 0;
+}
