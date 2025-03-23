@@ -27,6 +27,7 @@ img {
 }
 body {
   font-family: var(--font-family-heading);
+  margin: 0;
 }
 
 section {
@@ -43,7 +44,7 @@ section {
   align-items: center;
 }
 .section-head {
-  font-family: var(--font-family-anton);
+  font-family: var(--font-family-heading);
   font-size: 32px;
   letter-spacing: 0.02em;
   margin: 0;
@@ -79,7 +80,7 @@ section {
   font-size: 20px;
   color: var(--color-white);
   text-align: center;
-  font-family: var(--font-family-noto-sans-jp);
+  font-family: var(--font-family-body);
 }
 
 .big-button-icon {
@@ -199,7 +200,7 @@ body {
 }
 .hero-main-copy-row {
   color: var(--color-accent-yellow);
-  font-family: var(--font-family-anton);
+  font-family: var(--font-family-heading);
   font-size: 64px;
   line-height: 64px;
   letter-spacing: 0.05em;
@@ -207,7 +208,7 @@ body {
 .hero-main-copy {
   margin: 0;
   color: var(--color-accent-yellow);
-  font-family: var(--font-family-anton);
+  font-family: var(--font-family-heading);
   font-size: 64px;
   line-height: 64px;
   letter-spacing: 0.05em;
@@ -218,6 +219,7 @@ body {
 .hero-sub-copy {
   font-size: 16px;
   margin: 0;
+  font-family: var(--font-family-body);
   color: var(--color-accent-yellow);
 }
 @media (max-width: 750px) {
