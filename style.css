@@ -292,12 +292,10 @@ section {
 }
 /* コース紹介 */
 .courses {
+  color: var(--color-white);
   background: var(--color-background-navy);
 }
 
-.courses-section-head {
-  color: var(--color-white);
-}
 .courses-block-container {
   display: flex;
   flex-direction: column;
