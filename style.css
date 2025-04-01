@@ -294,8 +294,8 @@ section {
 .courses {
   color: var(--color-white);
   background: var(--color-background-navy);
+  font-size: 32px;
 }
-
 .courses-block-container {
   display: flex;
   flex-direction: column;
