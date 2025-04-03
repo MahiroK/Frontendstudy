@@ -396,3 +396,113 @@ section {
     font-size: 12px;
   }
 }
+/* フォーム */
+.Form {
+  background: var(--color-accent-yellow);
+}
+
+.application-container {
+  gap: 40px;
+}
+
+.application-section-head {
+  color: var(--color-black);
+}
+
+.application-section-body {
+  font-family: var(--font-family-body);
+  color: var(--color-black);
+  margin: 0;
+}
+
+.application-form {
+  width: 100%;
+  display: grid;
+  row-gap: 40px;
+  margin: 0;
+}
+
+.application-input-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  row-gap: 20px;
+}
+
+.application-label {
+  font-size: 20px;
+  color: var(--color-black);
+}
+
+.application-input,
+.application-textarea {
+  background: var(--color-form-background-yellow);
+  border: 1px solid var(--color-form-border-red);
+  color: var(--color-black);
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.application-input::placeholder,
+.application-textarea::placeholder {
+  color: var(--color-form-placeholder-gray);
+  font-family: var(--font-family-body);
+}
+
+.application-button {
+  box-shadow: 4px 4px 0 var(--color-black);
+}
+
+.application-button:hover,
+.application-button:focus {
+  box-shadow: 12px 12px 2px var(--color-black);
+}
+
+@media (max-width: 750px) {
+  .application-input-container {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+
+  .application-input-container > label {
+    font-size: 16px;
+  }
+
+  .application-input,
+  .application-textarea {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+/* フッター */
+.footer {
+  background: var(--color-background-black);
+  padding: 60px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.footer-copyright {
+  font-size: 16px;
+  align-items: center;
+  color: var(--color-white);
+  font-family: var(--font-family-body);
+}
+
+@media (max-width: 750px) {
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+    font-family: var(--font-family-body);
+  }
+}
